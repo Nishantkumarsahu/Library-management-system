@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+        <input type="text" id="search-input" placeholder="Search for a book..." onkeyup="searchBooks()">
+    </header>
+    <main>
+        <div class="book-list">
+            <!-- Book 1 -->
+            <div class="book">
+                <img src="images/book1.jpg" alt="Book 1">
+                <h3>Book Title 1</h3>
+                <p>Author: Author 1</p>
+                <a href="book-detail.html?bookId=1">View Details</a>
+            </div>
+            <!-- Book 2 -->
+            <div class="book">
+                <img src="images/book2.jpg" alt="Book 2">
+                <h3>Book Title 2</h3>
+                <p>Author: Author 2</p>
+                <a href="book-detail.html?bookId=2">View Details</a>
+            </div>
+            <!-- Book 3 -->
+            <div class="book">
+                <img src="images/book3.jpg" alt="Book 3">
+                <h3>Book Title 3</h3>
+                <p>Author: Author 3</p>
+                <a href="book-detail.html?bookId=3">View Details</a>
+            </div>
+            <!-- Add more books here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
